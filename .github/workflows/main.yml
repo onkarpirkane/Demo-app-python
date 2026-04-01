@@ -3,7 +3,7 @@ name: Demo-app-python  Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-deploy:
