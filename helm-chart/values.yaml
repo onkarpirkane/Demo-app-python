@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  repository: onkarpirkane/python-app
+  tag: latest
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 5000
